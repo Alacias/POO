@@ -17,7 +17,27 @@ public class Maestro extends Universitario {
     }
 
     public Maestro(String nombre) {
-        
+
+    }
+
+    public boolean equals(Object o) {
+        boolean resultado = false;
+        if ((o != null) && (o instanceof Maestro)) {
+            Maestro d = (Maestro) o;
+            if ((sueldo.equals(d.sueldo)) {
+                resultado = true;
+            }
+        }
+        return resultado;
+    }
+
+    public int hashCode() {
+        int hc = sueldo.hashCode();
+        return hc;
+    }
+
+    public String toString() {
+        return sueldo;
     }
     
 }
