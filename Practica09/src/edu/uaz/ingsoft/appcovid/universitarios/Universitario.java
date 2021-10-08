@@ -10,5 +10,14 @@ public class Universitario {
     public boolean equals(Object o) {
 
     }
+
+    public int hashCode() {
+        int hc = nombre.hashCode();
+        return hc;
+    }
+
+    public String toString() {
+        return nombre;
+    }
     
 }
