@@ -1,3 +1,5 @@
+package Practica09.src.edu.uaz.ingsoft.appcovid.universitarios;
+
 public class Universitario {
     private String nombre;
 
@@ -5,6 +7,8 @@ public class Universitario {
         return nombre;
     }
 
-    public boolean equals(Object )
+    public boolean equals(Object o) {
+
+    }
     
 }
