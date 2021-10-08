@@ -5,6 +5,6 @@ public class Universitario {
         return nombre;
     }
 
-    
+    public boolean equals(Object )
     
 }
