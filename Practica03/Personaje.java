@@ -2,10 +2,6 @@ public class Personaje {
     private String nombre;
     private String edad;
 
-    public Personaje() {
-        
-    }
-
     public String getNombre() {
         return nombre;
     }
