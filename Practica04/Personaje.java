@@ -2,10 +2,11 @@ package Practica04;
 
 public class Personaje {
     private String nombre;
-    private int edad = 0;
+    private int edad;
 
     public Personaje() {
-        
+        this.nombre = nombre;
+        edad = 0;
     }
 
     public int getEdad() {
@@ -14,8 +15,9 @@ public class Personaje {
 
     public boolean setEdad(int edad) {
         if (edad > 0 && edad < 120) {
-            return edad;
+            return true;
         }
+        return false;
     }
 
     public String getNombre() {
