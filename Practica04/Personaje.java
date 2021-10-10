@@ -1,8 +1,12 @@
+package Practica04;
+
 public class Personaje {
     private String nombre;
     private int edad = 0;
 
-
+    public Personaje() {
+        
+    }
 
     public int getEdad() {
         return edad;
