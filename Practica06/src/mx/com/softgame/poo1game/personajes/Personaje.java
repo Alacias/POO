@@ -9,6 +9,12 @@ public class Personaje {
         edad = 0;
     }
 
+    public getDetalle() {
+        return nombre;
+        System.out.println("\t");
+        return edad;
+    }
+
     public int getEdad() {
         return edad;
     }
