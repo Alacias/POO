@@ -9,7 +9,7 @@ public class PruebaPersonaje {
         Personaje per04 = new Personaje("Mayela", -10);
         Personaje per05 = new Personaje("Edwin", 500);
 
-        getDetalle();
+        Personaje.getDetalle();
        
     }
 }

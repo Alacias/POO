@@ -1,18 +1,16 @@
 package mx.com.softgame.poo1game.personajes;
 
 public class Personaje {
-    private String nombre;
-    private int edad;
+    private static String nombre;
+    private static int edad;
 
     public Personaje(String nombre, int edad) {
         this.nombre = nombre;
         edad = 0;
     }
 
-    public getDetalle() {
-        return nombre;
-        System.out.println("\t");
-        return edad;
+    public static String getDetalle() {
+        return nombre + "\t" + Integer.toString(edad);
     }
 
     public int getEdad() {
@@ -31,7 +29,7 @@ public class Personaje {
     }
 
     public void setNombre(String nombre) {
-        if (nombre.length > 3 && nombre.length < 20) {
+        if (nombre.length() > 3 && nombre.length() < 20) {
             this.nombre = nombre;
         }
     }
