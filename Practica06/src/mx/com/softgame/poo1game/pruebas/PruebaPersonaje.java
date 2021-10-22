@@ -9,7 +9,11 @@ public class PruebaPersonaje {
         Personaje per04 = new Personaje("Mayela", -10);
         Personaje per05 = new Personaje("Edwin", 500);
 
-        Personaje.getDetalle();
+        per01.getDetalle();
+        per02.getDetalle();
+        per03.getDetalle();
+        per04.getDetalle();
+        per05.getDetalle();
        
     }
 }
