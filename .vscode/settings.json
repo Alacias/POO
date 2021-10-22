@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Practica06/src/mx/com/softgame/poo1game/pruebas"
+        "Practica06\\src"
     ],
     "java.project.outputPath": "bin"
 }
