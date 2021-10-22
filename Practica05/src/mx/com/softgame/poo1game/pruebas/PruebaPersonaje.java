@@ -1,5 +1,5 @@
-package Practica05.src.mx.com.softgame.poo1game.pruebas;
-import Practica05.src.mx.com.softgame.poo1game.personajes.Personaje;
+package mx.com.softgame.poo1game.pruebas;
+import mx.com.softgame.poo1game.personajes.Personaje;
 
 public class PruebaPersonaje {
     public static void main(String[] args) {

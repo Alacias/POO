@@ -1,4 +1,4 @@
-package Practica05.src.mx.com.softgame.poo1game.personajes;
+package mx.com.softgame.poo1game.personajes;
 
 public class Personaje {
     private String nombre;
