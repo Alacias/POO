@@ -1,4 +1,4 @@
-package Practica04;
+package Practica05.src.mx.com.softgame.poo1game.pruebas;
 
 public class PruebaPersonaje {
     public static void main(String[] args) {
