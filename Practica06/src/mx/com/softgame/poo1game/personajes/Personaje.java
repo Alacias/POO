@@ -6,11 +6,11 @@ public class Personaje {
 
     public Personaje(String nombre, int edad) {
         this.nombre = nombre;
-        edad = 0;
+        this.edad = edad;
     }
 
-    public void getDetalle() {
-        System.out.println(nombre + "\t" + edad);
+    public String getDetalle() {
+        return nombre + "\t" + edad;
     }
 
     public int getEdad() {

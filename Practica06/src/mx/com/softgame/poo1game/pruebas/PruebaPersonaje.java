@@ -9,11 +9,19 @@ public class PruebaPersonaje {
         Personaje per04 = new Personaje("Mayela", -10);
         Personaje per05 = new Personaje("Edwin", 500);
 
-        per01.getDetalle();
-        per02.getDetalle();
-        per03.getDetalle();
-        per04.getDetalle();
-        per05.getDetalle();
+        /*
+        per01.setEdad(200);
+        per02.setEdad(10);
+        per03.setEdad(1);
+        per04.setEdad(-10);
+        per05.setEdad(500);
+        */
+
+        System.out.println(per01.getDetalle());
+        System.out.println(per02.getDetalle());
+        System.out.println(per03.getDetalle());
+        System.out.println(per04.getDetalle());
+        System.out.println(per05.getDetalle());
 
         Personaje per06 = per05;
         Personaje per07 = per04;
@@ -24,6 +32,21 @@ public class PruebaPersonaje {
         per06.setNombre("Patrick Alberto Camilo");
         per08.setNombre("Hanna");
         per10.setNombre("Jorge Abraham");
+
+        int newEdad = (int)(Math.random() * 1000);
+
+        per07.setEdad(newEdad);
+        per09.setEdad(newEdad);
+        
+        per07.getDetalle();
+        per09.getDetalle();
+
+        System.out.println("\t");
+        System.out.println(per01.getDetalle());
+        System.out.println(per02.getDetalle());
+        System.out.println(per03.getDetalle());
+        System.out.println(per04.getDetalle());
+        System.out.println(per05.getDetalle());
        
     }
 }
